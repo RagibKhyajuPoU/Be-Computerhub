@@ -29,3 +29,8 @@ document.querySelector(".contact-form").addEventListener("submit", e => {
   e.preventDefault();
   alert("Thank you! Your message has been sent.");
 });
+
+document.getElementById("menuToggle").onclick = () => {
+  document.querySelector(".navbar nav").classList.toggle("active");
+};
+
